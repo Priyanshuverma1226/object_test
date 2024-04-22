@@ -56,7 +56,6 @@ def detect_objects(image):
                 os.remove(audio_file)
             return image
 
-# Streamlit app
 def main():
     st.title('Object Detection')
 
